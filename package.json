@@ -1,0 +1,20 @@
+{
+  "name": "service_registry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node ./src/index.js",
+    "dev": "NODE_ENV=development nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.15",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "semver": "^7.3.7",
+    "winston": "^3.7.2"
+  }
+}
